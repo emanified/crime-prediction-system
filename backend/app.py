@@ -17,7 +17,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
 
 # Load area name to ID mapping
-BASE_DIR = r'D:\Crime Prediction\backend'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 AREA_NAME_TO_ID_PATH = os.path.join(BASE_DIR, 'area_name_to_id.pkl')
 AREA_CRIME_PROFILE_PATH = os.path.join(BASE_DIR, 'area_crime_profile.pkl')
 
@@ -66,7 +66,7 @@ def load_model(model_name):
     if not os.path.exists(model_path):
         raise FileNotFoundError(
             f"Model file not found: {model_path}\n"
-            f"Expected location: D:\\Crime Prediction\\backend\\{MODEL_PATHS[model_name]}\n"
+            f"Expected location: {model_path}\n"
             f"Please ensure the model file exists in the backend directory."
         )
     

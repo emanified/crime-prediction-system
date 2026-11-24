@@ -1,4 +1,4 @@
-# Crime Risk Prediction System
+﻿# Crime Risk Prediction System
 
 A modern web-based application for predicting crime occurrence risk using machine learning models. Built with React (frontend) and Flask (backend).
 
@@ -6,35 +6,35 @@ A modern web-based application for predicting crime occurrence risk using machin
 
 ```
 crime-prediction-system/
-│
-├── backend/
-│   ├── app.py
-│   ├── models.py
-│   ├── area_name_to_id.pkl
-│   ├── crime_random_forest_model.pkl
-│   ├── crime_logistic_regression_model.pkl
-│   ├── crime_decision_tree_model.pkl
-│   ├── crime_knn_model.pkl
-│   ├── requirements.txt
-│   └── tests/
-│       ├── __init__.py
-│       └── test_model_paths.py
-│
-├── frontend/
-│   ├── package.json
-│   ├── vite.config.js
-│   ├── index.html
-│   └── src/
-│       ├── main.jsx
-│       ├── App.jsx
-│       ├── api.js
-│       └── styles.css
-│
-├── docs/
-│   ├── README.md
-│   └── AI_Project_lab_9_neww.ipynb   # model training notebook
-│
-└── README.md
+â”‚
+â”œâ”€â”€ backend/
+â”‚   â”œâ”€â”€ app.py
+â”‚   â”œâ”€â”€ models.py
+â”‚   â”œâ”€â”€ area_name_to_id.pkl
+â”‚   â”œâ”€â”€ crime_random_forest_model.pkl
+â”‚   â”œâ”€â”€ crime_logistic_regression_model.pkl
+â”‚   â”œâ”€â”€ crime_decision_tree_model.pkl
+â”‚   â”œâ”€â”€ crime_knn_model.pkl
+â”‚   â”œâ”€â”€ requirements.txt
+â”‚   â””â”€â”€ tests/
+â”‚       â”œâ”€â”€ __init__.py
+â”‚       â””â”€â”€ test_model_paths.py
+â”‚
+â”œâ”€â”€ frontend/
+â”‚   â”œâ”€â”€ package.json
+â”‚   â”œâ”€â”€ vite.config.js
+â”‚   â”œâ”€â”€ index.html
+â”‚   â””â”€â”€ src/
+â”‚       â”œâ”€â”€ main.jsx
+â”‚       â”œâ”€â”€ App.jsx
+â”‚       â”œâ”€â”€ api.js
+â”‚       â””â”€â”€ styles.css
+â”‚
+â”œâ”€â”€ docs/
+â”‚   â”œâ”€â”€ README.md
+â”‚   â””â”€â”€ AI_Project_lab_9_neww.ipynb   # model training notebook
+â”‚
+â””â”€â”€ README.md
 ```
 
 ## Dataset
@@ -52,6 +52,8 @@ The trained models needed to run the app are already in `backend/`.
 - **Comprehensive Analysis**: Detailed safety recommendations based on predictions
 
 ## Setup Instructions
+
+Requires **Python 3.11+** and Node.js 18+.
 
 ### Backend Setup
 

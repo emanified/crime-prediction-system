@@ -6,7 +6,7 @@ import pickle
 import os
 
 # Base directory for model files
-BASE_DIR = r'D:\Crime Prediction\backend'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def get_model_path(model_name):
     """Get the file path for a model"""

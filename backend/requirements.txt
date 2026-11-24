@@ -1,6 +1,6 @@
 Flask==3.0.0
 flask-cors==4.0.0
-pandas==2.1.4
-numpy==1.26.2
-scikit-learn==1.3.2
-
+pandas>=2.2
+numpy>=1.26
+# The bundled .pkl models were saved with scikit-learn 1.8.0 - keep this version to load them safely
+scikit-learn==1.8.0
